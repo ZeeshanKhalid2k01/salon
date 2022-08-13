@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?16024831');
+  src: url('../fonts/fontello.eot?16024831#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?16024831') format('woff2'),
+       url('../fonts/fontello.woff?16024831') format('woff'),
+       url('../fonts/fontello.ttf?16024831') format('truetype'),
+       url('../fonts/fontello.svg?16024831#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?16024831#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-hospital:before { content: '\e800'; } /* 'î €' */
+.icon-favorite:before { content: '\e801'; } /* 'î ' */
+.icon-clock-(1):before { content: '\e802'; } /* 'î ‚' */
+.icon-left-quote:before { content: '\e803'; } /* 'î ƒ' */
+.icon-communication-4:before { content: '\e804'; } /* 'î „' */
+.icon-next-12:before { content: '\e805'; } /* 'î …' */
+.icon-email:before { content: '\e82d'; } /* 'î ­' */
+.icon-envelope:before { content: '\e82e'; } /* 'î ®' */
+.icon-percentage:before { content: '\e83d'; } /* 'î ½' */
+.icon-phone-call:before { content: '\e83e'; } /* 'î ¾' */
+.icon-placeholder:before { content: '\e841'; } /* 'î¡' */
+.icon-push-pin:before { content: '\e843'; } /* 'î¡ƒ' */
+.icon-cancel:before { content: '\e85d'; } /* 'î¡' */
+.icon-cancel-2:before { content: '\e85f'; } /* 'î¡Ÿ' */
+.icon-check:before { content: '\e860'; } /* 'î¡ ' */
+.icon-checked:before { content: '\e861'; } /* 'î¡¡' */
+.icon-checked-1:before { content: '\e862'; } /* 'î¡¢' */
+.icon-checked-2:before { content: '\e863'; } /* 'î¡£' */
+.icon-double-chevron:before { content: '\e86d'; } /* 'î¡­' */
+.icon-download-1:before { content: '\e86f'; } /* 'î¡¯' */
+.icon-download-2:before { content: '\e870'; } /* 'î¡°' */
+.icon-download-3:before { content: '\e871'; } /* 'î¡±' */
+.icon-download-4:before { content: '\e872'; } /* 'î¡²' */
+.icon-download-5:before { content: '\e873'; } /* 'î¡³' */
+.icon-download-6:before { content: '\e874'; } /* 'î¡´' */
+.icon-download-7:before { content: '\e875'; } /* 'î¡µ' */
+.icon-download-8:before { content: '\e876'; } /* 'î¡¶' */
+.icon-download-9:before { content: '\e877'; } /* 'î¡·' */
+.icon-download-11:before { content: '\e879'; } /* 'î¡¹' */
+.icon-download-12:before { content: '\e87a'; } /* 'î¡º' */
+.icon-export-1:before { content: '\e87b'; } /* 'î¡»' */
+.icon-fast-forward:before { content: '\e87c'; } /* 'î¡¼' */
+.icon-fullscreen:before { content: '\e87e'; } /* 'î¡¾' */
+.icon-upload-12:before { content: '\e880'; } /* 'î¢€' */
+.icon-back-2:before { content: '\e881'; } /* 'î¢' */
+.icon-back-7:before { content: '\e882'; } /* 'î¢‚' */
+.icon-download-10:before { content: '\e883'; } /* 'î¢ƒ' */
+.icon-next-1:before { content: '\e884'; } /* 'î¢„' */
+.icon-login:before { content: '\e885'; } /* 'î¢…' */
+.icon-logout:before { content: '\e886'; } /* 'î¢†' */
+.icon-menu:before { content: '\e887'; } /* 'î¢‡' */
+.icon-menu-1:before { content: '\e888'; } /* 'î¢ˆ' */
+.icon-menu-2:before { content: '\e889'; } /* 'î¢‰' */
+.icon-menu-3:before { content: '\e88a'; } /* 'î¢Š' */
+.icon-next-2:before { content: '\e88f'; } /* 'î¢' */
+.icon-next-3:before { content: '\e890'; } /* 'î¢' */
+.icon-next-4:before { content: '\e891'; } /* 'î¢‘' */
+.icon-next-5:before { content: '\e892'; } /* 'î¢’' */
+.icon-next-6:before { content: '\e893'; } /* 'î¢“' */
+.icon-next-7:before { content: '\e894'; } /* 'î¢”' */
+.icon-next-8:before { content: '\e895'; } /* 'î¢•' */
+.icon-next-9:before { content: '\e896'; } /* 'î¢–' */
+.icon-next-10:before { content: '\e897'; } /* 'î¢—' */
+.icon-next-11:before { content: '\e898'; } /* 'î¢˜' */
+.icon-previous:before { content: '\e89c'; } /* 'î¢œ' */
+.icon-previous-1:before { content: '\e89d'; } /* 'î¢' */
+.icon-previous-2:before { content: '\e89e'; } /* 'î¢ž' */
+.icon-rewind:before { content: '\e8a3'; } /* 'î¢£' */
+.icon-up-arrow:before { content: '\e8a8'; } /* 'î¢¨' */
+.icon-up-arrow-1:before { content: '\e8a9'; } /* 'î¢©' */
+.icon-upload-1:before { content: '\e8ab'; } /* 'î¢«' */
+.icon-upload-2:before { content: '\e8ac'; } /* 'î¢¬' */
+.icon-upload-3:before { content: '\e8ad'; } /* 'î¢­' */
+.icon-upload-4:before { content: '\e8ae'; } /* 'î¢®' */
+.icon-upload-5:before { content: '\e8af'; } /* 'î¢¯' */
+.icon-upload-6:before { content: '\e8b0'; } /* 'î¢°' */
+.icon-upload-7:before { content: '\e8b1'; } /* 'î¢±' */
+.icon-upload-9:before { content: '\e8b3'; } /* 'î¢³' */
+.icon-upload-10:before { content: '\e8b4'; } /* 'î¢´' */
+.icon-back:before { content: '\e8bb'; } /* 'î¢»' */
+.icon-back-3:before { content: '\e8be'; } /* 'î¢¾' */
+.icon-back-4:before { content: '\e8bf'; } /* 'î¢¿' */
+.icon-back-5:before { content: '\e8c0'; } /* 'î£€' */
+.icon-back-6:before { content: '\e8c1'; } /* 'î£' */
+.icon-back-8:before { content: '\e8c3'; } /* 'î£ƒ' */
+.icon-magnifying-glass:before { content: '\e8c7'; } /* 'î£‡' */
+.icon-share:before { content: '\e8c8'; } /* 'î£ˆ' */
+.icon-clock:before { content: '\e8c9'; } /* 'î£‰' */
+.icon-export:before { content: '\e8cb'; } /* 'î£‹' */
+.icon-heart:before { content: '\e8cd'; } /* 'î£' */
+.icon-heart-2:before { content: '\e8cf'; } /* 'î£' */
+.icon-left-arrow:before { content: '\e8d3'; } /* 'î£“' */
+.icon-like:before { content: '\e8d8'; } /* 'î£˜' */
+.icon-picture:before { content: '\e8f9'; } /* 'î£¹' */
+.icon-pie-chart-1:before { content: '\e8fb'; } /* 'î£»' */
+.icon-placeholder-1:before { content: '\e8fd'; } /* 'î£½' */
+.icon-plus:before { content: '\e8fe'; } /* 'î£¾' */
+.icon-previous-3:before { content: '\e8ff'; } /* 'î£¿' */
+.icon-previous-4:before { content: '\e900'; } /* 'î¤€' */
+.icon-search:before { content: '\e90e'; } /* 'î¤Ž' */
+.icon-smartphone-1:before { content: '\e911'; } /* 'î¤‘' */
+.icon-sort:before { content: '\e912'; } /* 'î¤’' */
+.icon-speech-bubble:before { content: '\e915'; } /* 'î¤•' */
+.icon-speech-bubble-1:before { content: '\e916'; } /* 'î¤–' */
+.icon-speech-bubble-9:before { content: '\e91e'; } /* 'î¤ž' */
+.icon-speech-bubble-10:before { content: '\e91f'; } /* 'î¤Ÿ' */
+.icon-speech-bubble-11:before { content: '\e920'; } /* 'î¤ ' */
+.icon-speech-bubble-12:before { content: '\e921'; } /* 'î¤¡' */
+.icon-speech-bubble-17:before { content: '\e926'; } /* 'î¤¦' */
+.icon-speech-bubble-18:before { content: '\e927'; } /* 'î¤§' */
+.icon-speech-bubble-23:before { content: '\e92c'; } /* 'î¤¬' */
+.icon-speech-bubble-24:before { content: '\e92d'; } /* 'î¤­' */
+.icon-speech-bubble-25:before { content: '\e92e'; } /* 'î¤®' */
+.icon-speech-bubble-26:before { content: '\e92f'; } /* 'î¤¯' */
+.icon-speech-bubble-27:before { content: '\e930'; } /* 'î¤°' */
+.icon-sticker-4:before { content: '\e937'; } /* 'î¤·' */
+.icon-telephone-2:before { content: '\e940'; } /* 'î¥€' */
+.icon-telephone-3:before { content: '\e941'; } /* 'î¥' */
+.icon-telephone-8:before { content: '\e946'; } /* 'î¥†' */
+.icon-up-arrow-2:before { content: '\e952'; } /* 'î¥’' */
+.icon-upload-11:before { content: '\e953'; } /* 'î¥“' */
+.icon-upload-8:before { content: '\e954'; } /* 'î¥”' */
+.icon-user:before { content: '\e956'; } /* 'î¥–' */
+.icon-user-1:before { content: '\e957'; } /* 'î¥—' */
+.icon-bookmark:before { content: '\e95c'; } /* 'î¥œ' */
+.icon-cancel-3:before { content: '\e95d'; } /* 'î¥' */
+.icon-check-1:before { content: '\e95e'; } /* 'î¥ž' */
+.icon-checked-3:before { content: '\e95f'; } /* 'î¥Ÿ' */
+.icon-check-mark:before { content: '\e960'; } /* 'î¥ ' */
+.icon-close:before { content: '\e961'; } /* 'î¥¡' */
